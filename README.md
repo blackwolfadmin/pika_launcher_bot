@@ -2,6 +2,9 @@
 
 
 **An advanced and powerful launcher cli bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
+
+[![https://telegram.me/Blackwolf_admin](https://img.shields.io/badge/💬_Telegram-Bot_Dev._Group-blue.svg)](https://telegram.me/Blackwolf_admin) 
+
 # مزایا
 
 * **آپتایم 99 درصدی ربات شما**
