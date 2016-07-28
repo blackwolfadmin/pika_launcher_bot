@@ -1,6 +1,6 @@
 local function run(msg)
 if msg.text == "/shell restart telegram" then
-	return '!launch 15m restart telegram'
+	return '!launch 15m restart telegram'-- you can put everything for time launch!
 end
 end
 return {
@@ -13,3 +13,4 @@ return {
     privileged = true,
 	pre_process = pre_process
 }
+--by @Blackwolf_admin 
