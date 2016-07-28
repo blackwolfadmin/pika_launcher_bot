@@ -1,4 +1,4 @@
-local filename='launch/pika-launch.lua'
+local filename='data/pika-launch.lua'
 local cronned = load_from_file(filename)
 
 local function save_cron(msg, text,date)
