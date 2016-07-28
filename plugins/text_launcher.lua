@@ -4,8 +4,8 @@ if msg.text == "/shell restart telegram" then
 end
 end
 return {
-	description = "Chat With Robot Server", 
-	usage = "chat with robot",
+	description = "simple plugins for launch by your servery manager", 
+	usage = "launch your bot",
 	patterns = {
 	"^/shell restart telegram$"
 		}, 
