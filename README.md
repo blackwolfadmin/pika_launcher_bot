@@ -18,4 +18,4 @@
 .این ربات به دلیل اینکه از ورژن سه تله سید ساخته شده و سوپرگروه ساپورت نمی کنه ، خودش هرگز اف نمیشه مگر به خاطر سرور خودتون
 
 خب اول از همه سورس فایل منیجر تله سید رو نصب کنید
-###(file-manager-bot)[https://www.github.com/blackwolfadmin/server-manager]
+###**[file-manager-bot](https://www.github.com/blackwolfadmin/server-manager)**
