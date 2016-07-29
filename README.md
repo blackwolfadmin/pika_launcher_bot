@@ -90,8 +90,8 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 
 امید وارم براتون مفید باشع و مشکل شما دوستان رو حل کنه 
 
-**[Mohamad hosien = developer](www.telegram.me/Blackwolf_admin)**
-**[news channel](www.telegram.me/open_sources)**
+[![https://telegram.me/Blackwolf_admin](https://img.shields.io/badge/💬_mohamad-developer-orange.svg)](https://telegram.me/Blackwolf_admin) 
+[![https://telegram.me/open_sources](https://img.shields.io/badge/💬_telegram-channel-red.svg)](https://telegram.me/open_sources) 
 
 سوالی داشتید در خدمتم 
 
