@@ -51,7 +51,7 @@
 
 `sed -i "s_telegrambotpath_$(pwd)_g" launch/pika.conf`
 
-`sudo cp launch/pika.conf /etc/init/`
+`sudo cp launch/pika.conf /launch/init/`
 
 :حالا با دستورات زیر می توانید ربات خودتون رو چه از طریق ترمینال و چه از طریق ربات سرور منیجر کنترل کنید 
 
