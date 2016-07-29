@@ -85,3 +85,14 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 >>>استفاده کنید که هر 15 دقیقه یک پروکسس جدید برای لانچ ربات ساخته بشود restart pika فقط از دستور 
 
 **نکته : به ربات سرور منیجر خود حتما دسترسی خواندن پیام در گروه را بدهید تا مشکلی پیش نیاید**
+
+
+
+امید وارم براتون مفید باشع و مشکل شما دوستان رو حل کنه 
+
+**[Mohamad hosien = developer](www.telegram.me/Blackwolf_admin)**
+**[news channel](www.telegram.me/open_sources)**
+
+سوالی داشتید در خدمتم 
+
+موفق باشید
