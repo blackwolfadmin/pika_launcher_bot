@@ -45,7 +45,7 @@
 
 :بعد از انجام مراحل بالا ، ترمینال رو باز کنید و دستورات زیر را داخل ترمینال وارد کنید
 
-`cd botfile name` **botfile name = اسم پوشه اصلی ربات**
+`cd botfile name`  **botfile name = اسم پوشه اصلی ربات**
 
 >`sed -i "s/serveruser/$(whoami)/g" launch/pika.conf`
 >>مثل قبل نام یوزر سرور را قرار دهید ، **serveruser** به جای 
@@ -91,7 +91,7 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 
 
 
-امید وارم براتون مفید باشع و مشکل شما دوستان رو حل کنه 
+امید وارم براتون مفید باشه و مشکل شما دوستان رو حل کنه 
 
 [![https://telegram.me/Blackwolf_admin](https://img.shields.io/badge/💬_mohamad-developer-orange.svg)](https://telegram.me/Blackwolf_admin) 
 [![https://telegram.me/open_sources](https://img.shields.io/badge/💬_telegram-channel-red.svg)](https://telegram.me/open_sources) 
