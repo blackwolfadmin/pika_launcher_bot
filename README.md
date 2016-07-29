@@ -68,3 +68,18 @@
 * **مرحله چهارم**
 
 :این سورس ربات لانچر را روی سرور خود کلون کنید که دستورات هم به شکل زیر هست
+`sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make autoconf unzip git redis-server g++ -y --force-yes && git clone https://github.com/blackwolfadmin/pika_launcher_bot.git && cd pika_launcher_bot && chmod +x launch.sh && ./launch.sh install && ./launch.sh`
+
+!خب حالا داخل ربات خودتون رو سودو کنید که 99.5 درصد بلد هستید
+
+* **مرحله پنجم**
+
+ حالا یک گروه **عادی** بسازید و ربات لانچر و اون ربات سرور منیجر را داخلش اضافه کنید
+
+حالا کافیه دستور زیر را داخل گروه وارد کنید تا ربات لانچر هر 15 دقیقه که به طور پیش فرض تنظیم کردم رو به صورت خودکار ربات شما رو لانچ کنه که دیگه آفلاین نشه
+
+>`/launch 15m restart pika`
+>> از این دستور فقط و فقط یک بار در گروه استفاده کنید ، در غیر این صورت در هر 15 دقیقه  رباتتون بیشتر لانچ میشه
+>>>استفاده کنید که هر 15 دقیقه یک پروکسس جدید برای لانچ ربات ساخته بشود restart pika فقط از دستور 
+
+**نکته : به ربات سرور منیجر خود حتما دسترسی خواندن پیام در گروه را بدهید تا مشکلی پیش نیاید
