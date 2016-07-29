@@ -34,4 +34,7 @@
 
 به پوشه رباتتون اضافه کنید که نقش یک لانچ رو داشته باشه **[launch](http://telegram.me/open_sources/3)** در این قسمت شما باید یک فایل به نام 
 
-##[Download launch file](http://telegram.me/open_sources/3)
+>##[Download launch file](http://telegram.me/open_sources/3)
+>> فایل رو به پوشه اصلی رباتتون اضافه کنید 
+>>>اسم یوزر سرور خودتون رو جاش بزارید _serveruser_ به جای pika.comf پوشه را باز کنید و داخل فایل 
+>>>>!دست نزنید telegrambotpath نکته : به 
