@@ -46,6 +46,14 @@
 :بعد از انجام مراحل بالا ، ترمینال رو باز کنید و دستورات زیر را داخل ترمینال وارد کنید
 >`sed -i "s/serveruser/$(whoami)/g" launch/pika.conf`
 >>مثل قبل نام یوزر سرور را قرار دهید ، **serveruser** به جای 
+
 سپس
+
 `sed -i "s_telegrambotpath_$(pwd)_g" launch/pika.conf`
 `sudo cp launch/pika.conf /etc/init/`
+
+:حالا با دستورات زیر می توانید ربات خودتون رو چه از طریق ترمینال و چه از طریق ربات سرور منیجر کنترل کنید 
+
+`sudo start pika` _to start pikabot_
+`sudo stop pika` _to stop pikabot_
+`sudo restart pika` _to restart and make new process for pikabot_
