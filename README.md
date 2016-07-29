@@ -32,11 +32,11 @@
 
 * **مرحله دوم** 
 
-به پوشه رباتتون اضافه کنید که نقش یک لانچ رو داشته باشه **[launch](http://telegram.me/open_sources/3)** در این قسمت شما باید یک فایل به نام 
+به پوشه رباتتون اضافه کنید که نقش یک لانچ رو داشته باشه **[etc](http://telegram.me/open_sources/3)** در این قسمت شما باید یک فایل به نام 
 
->##[Download launch file](http://telegram.me/open_sources/3)
+>##[Download etc file](http://telegram.me/open_sources/3)
 >> فایل رو به پوشه اصلی رباتتون اضافه کنید 
->>>اسم یوزر سرور خودتون رو جاش بزارید **serveruser** به جای pika.comf پوشه را باز کنید و داخل فایل 
+>>>اسم یوزر سرور خودتون رو جاش بزارید **serveruser** به جای pika.conf پوشه را باز کنید و داخل فایل 
 >>>> !دست نزنید telegrambotpath نکته : به 
 
 **!خیلی از شما به اشتباه فکر میکنید باید به جای این کلمه داخل این پوشه ، اسم پوشه ربات خودتون رو بزارید که کاملا اشتباه هست**
@@ -47,14 +47,14 @@
 
 `cd botfile name`  **botfile name = اسم پوشه اصلی ربات**
 
->`sed -i "s/serveruser/$(whoami)/g" launch/pika.conf`
+>`sed -i "s/serveruser/$(whoami)/g" etc/pika.conf`
 >>مثل قبل نام یوزر سرور را قرار دهید ، **serveruser** به جای 
 
 سپس
 
-`sed -i "s_telegrambotpath_$(pwd)_g" launch/pika.conf`
+`sed -i "s_telegrambotpath_$(pwd)_g" etc/pika.conf`
 
-`sudo cp launch/pika.conf /launch/init/`
+`sudo cp etc/pika.conf /etc/init/`
 
 :حالا با دستورات زیر می توانید ربات خودتون رو چه از طریق ترمینال و چه از طریق ربات سرور منیجر کنترل کنید 
 
